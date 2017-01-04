@@ -1,0 +1,37 @@
+{
+    "name": "quan/rongcloud",
+    "description": "Laravel 5.1 im sdk util",
+    "type":"util",
+    "keywords": ["im", "sdk","rongyun","rongcloud", "util"],
+    "license": "MIT",
+    "homepage": "https://github.com/bulaohe/rongcloud",
+    "authors": [
+        {
+            "name": "coding",
+            "email": "qqmmmqq@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.1"
+    },
+    "replace": {
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "files": [
+        ],
+        "psr-4": {
+            "Quan\\Sdk\\Rongcloud\\": "src/"
+        }
+    },
+    "suggest": {
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
+
