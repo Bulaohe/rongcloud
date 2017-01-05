@@ -8,14 +8,14 @@ namespace Quan\Sdk\Rongcloud;
  * 
  * v2.0.1
  */
-use Union\Sdk\Rongyun\SendRequest;
-use Union\Sdk\Rongyun\User;
-use Union\Sdk\Rongyun\Message;
-use Union\Sdk\Rongyun\Wordfilter;
-use Union\Sdk\Rongyun\Group;
-use Union\Sdk\Rongyun\Chatroom;
-use Union\Sdk\Rongyun\Push;
-use Union\Sdk\Rongyun\SMS;
+use Quan\Sdk\Rongcloud\SendRequest;
+use Quan\Sdk\Rongcloud\User;
+use Quan\Sdk\Rongcloud\Message;
+use Quan\Sdk\Rongcloud\Wordfilter;
+use Quan\Sdk\Rongcloud\Group;
+use Quan\Sdk\Rongcloud\Chatroom;
+use Quan\Sdk\Rongcloud\Push;
+use Quan\Sdk\Rongcloud\SMS;
     
 class RongCloud
 {

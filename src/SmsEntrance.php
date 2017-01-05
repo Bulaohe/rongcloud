@@ -12,7 +12,7 @@ class SmsEntrance
         define('ENABLE_HTTP_PROXY', FALSE);
         define('HTTP_PROXY_IP', '127.0.0.1');
         define('HTTP_PROXY_PORT', '8888');
-        $conf = union_config('union.sdk.sms.'.$type);
+        $conf = config('union.sdk.sms.'.$type);
 
         $regionIds = array("cn-hangzhou","cn-beijing","cn-qingdao","cn-hongkong","cn-shanghai","us-west-1","cn-shenzhen","ap-southeast-1");
         $productDomains =array(

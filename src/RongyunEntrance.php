@@ -10,7 +10,7 @@ class RongyunEntrance
 {
 
     public static function init(){
-        $conf = union_config('union.sdk.rongyun');
+        $conf = config('union.sdk.rongyun');
 
         $appKey = $conf['appKey'];
         $appSecret = $conf['appSecret'];
